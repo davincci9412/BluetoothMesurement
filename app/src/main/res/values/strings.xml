@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BlueAlarm</string>
+    <string name="title_activity_main">BlueAlarm</string>
+    <string name="intro_text">This application detect nearby beacon device.</string>
+    <string name="encoding">Detecting</string>
+    <string name="notencoding">Not Detecting</string>
+    <string name="startEncoding">Start Detecting</string>
+    <string name="stopEncoding">Stop Detecting"</string>
+</resources>

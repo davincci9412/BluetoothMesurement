@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:id="@+id/alarm_layout"
+    android:background="@mipmap/background">
+
+    <ImageButton
+        android:id="@+id/btnStopAlarm"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/alarm_off"
+        android:layout_gravity="bottom|center_horizontal"
+        android:elevation="0dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_weight="2"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="156dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Alarm_String"
+            android:layout_weight="5"
+            android:textSize="24sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/text_color"
+            android:paddingTop="30dp"
+            android:layout_marginBottom="120dp" />
+    </LinearLayout>
+</FrameLayout>
